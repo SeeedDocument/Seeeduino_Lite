@@ -1,15 +1,21 @@
-# Seeeduino Lite
+---
+title: Seeeduino Lite
+category: Arduino
+bzurl: https://www.seeedstudio.com/Seeeduino-Lite-p-1487.html
+oldwikiname:   Seeeduino Lite
+prodimagename:  Seeeduino_ethernet-2.jpg
+surveyurl: https://www.research.net/r/Seeeduino_Lite
+sku:   102010008
+---
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/400px-Lite_01.jpg)
 
-## Introduction
 Seeeduino Lite is a microcontroller based on ATmega32U4. Just like Arduino Leonardo, it saves a secondary processor needed for USB to serial communication. And this allows Seeeduino Lite appear to computer as a USB device, like keyboard and mouse. Derived from Leonardo, we also merged custom details of Seeeduino series into Seeeduino Lite, like selectable operating voltage, onboard Grove connectors and so on. It has 20 digital I/Os (7 of which can output PWM),a micro USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter to get started.
 
-**Model:**[ARD05253P](https://www.seeedstudio.com/item_detail.html?p_id=1487)
-
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/400px-Lite_01.jpg)
+[![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/Seeeduino-Lite-p-1487.html)
 
 
 ## Specifications
-
+---
 - Microcontroller: ATmega32u4
 - Operating Voltage: 5V
 - Input Voltage (recommended): 7-12V
@@ -23,9 +29,9 @@ Seeeduino Lite is a microcontroller based on ATmega32U4. Just like Arduino Leona
 - SRAM: 2.5 KB (ATmega32u4)
 - EEPROM: 1 KB (ATmega32u4)
 - Clock Speed: 16 MHz
-  
-## Interface
 
+## Interface
+---
 ![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Seeeduino_Lite_Intrface_Function.jpg)
 
 **U1:** 78M05 IC, Three-terminal positive voltage regulator.
@@ -36,7 +42,8 @@ Seeeduino Lite is a microcontroller based on ATmega32U4. Just like Arduino Leona
 
 
 ## Driver Installation
-Download the driver files from here [https://github.com/Seeed-Studio/Signed_USB_Serial_Driver](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver). 
+---
+Download the driver files from here [https://github.com/Seeed-Studio/Signed_USB_Serial_Driver](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver).
 
 Connect Seeeduino Lite to your computer via a micro-USB wire.
 
@@ -58,9 +65,9 @@ Choose "Search for the best driver in these locations", and check the box "incud
 Replace two file in the path of Arduino. Open up Arduino-1.0.1/hardware/arduino/cores/arduino directory, replace the file:USBCore.cpp with the new USBCore.cpp.And replace file：boards.txt with the new boards.txt in the path:Arduino-1.0.1/hardware/arduino. Now, you can program and use the seeeduino lite as you use other Arduino boards.
 
 ## Resources
-
-- [Seeeduino Lite Eagle File](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Seeeduino_Lite_Eagle_File.zip). 
-- [new boards.txt](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip). 
-- [new USBCore.cpp](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip). 
+---
+- [Seeeduino Lite Eagle File](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Seeeduino_Lite_Eagle_File.zip).
+- [new boards.txt](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip).
+- [new USBCore.cpp](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip).
 - [Lite Driver File](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Signed_USB_Serial_Driver-master.zip).  
-- [Getting Started](http://www.seeedstudio.com/wiki/index.php?title=Main_Page#Getting_Started). 
+- [Getting Started](http://www.seeedstudio.com/wiki/index.php?title=Main_Page#Getting_Started).
